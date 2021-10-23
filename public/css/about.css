@@ -1,0 +1,83 @@
+body{
+    background-color: #F1EAFF;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: repeat(2fr 8fr);
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 20px;
+}
+
+#intro{
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #43087E;
+    padding: 0px 100px 20px 100px;
+    font-size: large;
+}
+
+#cm img, #cm{
+    display: inline;
+    float:left;
+    font-size: 30px;
+    color: #43087E;
+    font-weight: lighter;
+    font-family:monospace;
+    margin-left: 20px;
+}
+
+article, h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #43087E;
+}
+
+h1{
+    font-size: 50px;
+    font-family: monospace;
+    margin-top: 0px;
+}
+.pic{
+    background-color: #43087E;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 250px;
+    color: #F1EAFF;
+    margin: 20px;
+    width: 120px;
+}
+
+.box{
+    border: solid black;
+    border-radius: 100px 100px 10px 10px;
+    padding-bottom: 40px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.box:hover{
+    transform: scale(1.15);
+    box-shadow: 15px 15px 10px 11px rgba(105, 32, 177, 0.31);
+}
+.twitter, .linkedin{
+    width: 40px;    
+}
+
+
+#ani, #ani2, #har, #har2, #git, #git2, #ayu, #ayu2{
+    display: inline;
+}
+
+.linkedin, .twitter {
+    transition: transform .5s ease-in;
+  }
+  img.linkedin:hover, img.twitter:hover {
+    transform: rotate(360deg);
+  }

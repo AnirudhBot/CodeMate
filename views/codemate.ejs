@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMate</title>
+
+    <link rel="stylesheet" href="../css/codemate.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+
+    <div class="interface d-flex">
+        <div class="row main-heading">
+            <div class="problem col-5">
+                <div class="heading text-center">
+                    Problem
+                </div>
+            </div>
+            <div class="code col-7">
+                <div class="heading text-center">
+                    Code
+                </div>
+            </div>
+        </div>
+        <div class="row code-space">
+            <div class="col-5 space-1 d-flex">
+                <div class="row sub-heading">
+                    <div class="ques-link col-7 text-end">
+                        Next Question
+                    </div>
+                    <div class="icon col-5">
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                    </div>
+                </div>
+                <div class="row prob-desc justify-content-center">
+                    <div class="questions">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 space-2 d-flex">
+                <div class="row sub-heading">
+                    <div class="language">
+                        <label>Choose a language:</label>
+                        <select class="languages" name="languages">
+                            <option value="cpp">C++</option>
+                            <option value="c">C</option>
+                            <option value="cs">C#</option>
+                            <option value="java">Java</option>
+                            <option value="py">Python</option>
+                            <option value="rb">Ruby</option>
+                            <option value="kt">Kotlin</option>
+                            <option value="swift">Swift</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row ide-area justify-content-center">
+                    <div class="editor-1 col-8 ps-4">
+                        <h6>Editor</h6>
+                        <textarea class="editor-area" cols="60" rows="18"></textarea>
+                    </div>
+                    <div class="editor-2 col-4 pe-5">
+                        <div class="row input">
+                            <h6>Input</h6>
+                            <textarea class="input-area" cols="30" rows="6"></textarea>
+                        </div>
+                        <br>
+                        <div class="row output">
+                            <h6>Output</h6>
+                            <div class="output-area">
+                                
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row submit">
+                            <button type="button" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="meeting-link col-11 text-center">
+                <a class="room-meet-link" href="https://codemate.daily.co/<%= id %>" target="_blank">Join Room Meet Here !</a>
+            </div>
+            <div class="col-1 text-center">
+                <a href="/" class="exit">
+                    Exit
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+    <script src="../js/codemate.js"></script>
+</body>
+</html>

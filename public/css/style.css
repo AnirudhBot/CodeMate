@@ -1,0 +1,78 @@
+body, html {
+  height: 100vw;
+}
+
+.nav-item{
+  margin: 2px 9px;
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: lightgray !important;
+}
+
+.ux{
+  text-align: end;
+  padding-right: 16%;
+  padding-top: 5%;
+}
+
+.circle{
+    width: 30%;
+    margin: -350px 20px;
+    font-size: 1.5em;
+    color: #F1EAFF; 
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin-bottom: 20px;
+}
+
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+.container .modal-header {
+  padding: 12px 0px 0px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.container{
+  text-align: end;
+}
+
+.container .btc{
+   text-align: end;
+   padding-right: 3%;
+   padding-top: 1%;
+   border: 0cm;
+   padding-left: 70%;
+}
+
+.container .btn-lg {
+    padding: 0px 20px;
+    font-size: 2.1rem;
+    border-radius: 10px;
+    background-color: rgb(89, 16, 163);
+    margin-right: 9em;
+    width: 190px;
+    height: 60px;
+}
+
+.btn-lg:hover{
+  background-color: #5910A3;
+}
+.btn-lg:visited{
+  background-color: #5910A3;
+}
+
+body{
+  background: url(../assets/UI.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
