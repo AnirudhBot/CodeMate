@@ -15,11 +15,6 @@ Give it a try here :- https://codemate-app.herokuapp.com/
 </div>
 <br>
 <hr>
-<h2 align="center">Our Awesome Contributors</h2>
-<br>
-<div align="center">
-<a href="https://github.com/AnirudhBot/CodeMate/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AnirudhBot/CodeMate" />
-</a>
-</div>
+
+
 
