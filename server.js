@@ -38,7 +38,7 @@ app.get("/answer", (req, res) => {
 
   var config = {
     method: "post",
-    url: "https://codex-api.herokuapp.com/",
+    url: "https://api.codex.jaagrav.in/",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
