@@ -38,7 +38,7 @@ app.get("/answer", (req, res) => {
 
   var config = {
     method: "post",
-    url: "https://api.codex.jaagrav.in/",
+    url: "https://codex-api.fly.dev/",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
